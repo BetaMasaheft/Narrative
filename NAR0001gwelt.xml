@@ -5,11 +5,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
    schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="nar" xml:id="NAR0001">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="nar" xml:id="NAR0001gwelt">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="miracle">miraculous water spring</title>
+            <title type="record">Land donation</title>
             <editor key="MV"/>
             <editor key="AB" role="generalEditor"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -29,16 +29,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change who="MV" when="2016-05-06">Provided Example in Issue 44</change>
+         <change who="MV" when="2016-06-14"></change>
          <change who="PL" when="2016-05-11">prepared XML file</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <p>A frequent miracle worked by a number of saints (Marha Krestos, Yohanni Mesraqawi,
-            others) is the following: the saint makes miraculous water spring from a rock, and the
-            blessed water has prodigious powers. It heals the ill in various ways, makes an
-            infertile woman pregnant, or even resuscitates the dead.</p>
+         <p>Documents recording land donations granted by authorities to churches and monasteries.</p>
       </body>
    </text>
 </TEI>

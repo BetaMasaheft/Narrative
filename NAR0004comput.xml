@@ -5,11 +5,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
    schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="nar" xml:id="NAR0002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="nar" xml:id="NAR0004comput">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="vitae">escape from family</title>
+                <title type="chronography">Computation of the cycles of years according to several calendars</title>
                 <editor key="MV"/>
                 <editor key="AB" role="generalEditor"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -25,22 +25,19 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <listWit>
+                    <witness corresp="BAVet1#i7.2" xml:id="BAVet1"/>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change who="MV" when="2016-05-06">Provided Example in Issue 44</change>
+            <change who="MV" when="2016-06-14"></change>
             <change who="PL" when="2016-05-11">prepared XML file</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <p>A typical topos of the Ethiopic Vitae is the way the saint leaves his own
-                family: demanded to get married, the saint escapes from the secular world and
-                embraces the monastic life. This happens frequently in the hagiographical works.</p>
-            <listBibl type="secondary">
-                <bibl><ptr target="bm:PLACEHOLDER"/></bibl>
-            </listBibl>
+            <p>To be used for computation of the cycles of years according to several calendars, e.g., Ezra, Enoch, the Greek time-counting system, etc.</p>
             <listBibl type="relations">
                 <bibl></bibl>
             </listBibl>
