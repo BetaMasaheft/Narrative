@@ -7,12 +7,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
    schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
     type="nar"
-    xml:id="NAR0007tazkar">
+    xml:id="NAR0008ListKing">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="feast">Tazkār</title>
-                <title xml:lang="en">Remembrance</title>
+                <title type="list">List of Ethiopian kings</title>
                 <editor key="MV"/>
                 <editor key="AB" role="generalEditor"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -36,7 +35,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     </teiHeader>
     <text>
         <body>
-            <p>Major commemorative feast for a dead person</p>
+            <p>To be used for lists of kings and emperors of Ethiopia</p>
             <listBibl type="relations">
                 <bibl></bibl>
             </listBibl>

@@ -11,8 +11,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="feast">Tazkār</title>
-                <title xml:lang="en">Remembrance</title>
+                <title type="text">History of the world</title>
                 <editor key="MV"/>
                 <editor key="AB" role="generalEditor"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -36,7 +35,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     </teiHeader>
     <text>
         <body>
-            <p>Major commemorative feast for a dead person</p>
+            <p>To be used for texts that provide an overview of the world history, including events from the Old Testament and the Ethiopian history</p>
             <listBibl type="relations">
                 <bibl></bibl>
             </listBibl>
