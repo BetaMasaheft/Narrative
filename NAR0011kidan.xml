@@ -7,7 +7,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
    schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
     type="nar"
-    xml:id="NAR0007tazkar">
+    xml:id="NAR0011kidan">
     <teiHeader>
         <fileDesc>
             <titleStmt>
