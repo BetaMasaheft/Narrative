@@ -26,8 +26,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </publicationStmt>
             <sourceDesc>
                 <listWit>
-                    <witness corresp="BAVet1#i7.1" xml:id="BAVet1"/>
-                    <witness corresp="BLadd16222#i7" xml:id="BLadd16222"/>
+                    <witness corresp="BAVet1#i7.1"/>
+                    <witness corresp="BLadd16222#i7"/>
                 </listWit>
             </sourceDesc>
         </fileDesc>
