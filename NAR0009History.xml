@@ -11,7 +11,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="text">History of the world</title>
+                <title>History of the world</title>
                 <editor key="MV"/>
                 <editor key="AB" role="generalEditor"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>

@@ -11,7 +11,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="feast">Tazkār</title>
+                <title>Tazkār</title>
                 <title xml:lang="en">Remembrance</title>
                 <editor key="MV"/>
                 <editor key="AB" role="generalEditor"/>

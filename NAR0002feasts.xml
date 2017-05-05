@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="chronography">Calculation of Easter and other moveable feasts</title>
+                <title>Calculation of Easter and other moveable feasts</title>
                 <editor key="MV"/>
                 <editor key="AB" role="generalEditor"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>

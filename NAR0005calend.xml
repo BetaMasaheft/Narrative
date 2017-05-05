@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="list">Calendar of saint commemorations</title>
+                <title>Calendar of saint commemorations</title>
                 <editor key="MV"/>
                 <editor key="AB" role="generalEditor"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
