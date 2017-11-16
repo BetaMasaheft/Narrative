@@ -11,6 +11,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <titleStmt>
             <title>Land donation</title>
             <editor key="MV"/>
+            
             <editor key="AB" role="generalEditor"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
