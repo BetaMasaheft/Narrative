@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
    schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-    type="nar"
-    xml:id="NAR0009history">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="nar" xml:id="NAR0009history">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,15 +27,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change who="MV" when="2016-09-02"></change>
+            <change who="MV" when="2016-09-02"/>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <p>To be used for texts that provide an overview of the world history, including events from the Old Testament and the Ethiopian history</p>
-            <listBibl type="relations">
-                <bibl></bibl>
-            </listBibl>
+            <listRelation/>
         </body>
     </text>
 </TEI>

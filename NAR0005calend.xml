@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -31,16 +30,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change who="MV" when="2016-06-14"></change>
+            <change who="MV" when="2016-06-14"/>
             <change who="PL" when="2016-05-11">prepared XML file</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <p>To be used for calendrical lists of saint commemorations, arranged according to the feast day of the saints.</p>
-            <listBibl type="relations">
-                <bibl></bibl>
-            </listBibl>
+            <listRelation/>
         </body>
     </text>
 </TEI>

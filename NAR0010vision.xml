@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
    schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-    type="nar"
-    xml:id="NAR0010vision">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="nar" xml:id="NAR0010vision">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,15 +29,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change who="ES" when="2016-11-01"></change>
+            <change who="ES" when="2016-11-01"/>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <p>A narrative of a vision</p>
-            <listBibl type="relations">
-                <bibl></bibl>
-            </listBibl>
+            <listRelation/>
         </body>
     </text>
 </TEI>
