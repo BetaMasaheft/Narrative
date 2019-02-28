@@ -35,6 +35,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
    <text>
       <body>
          <p>Documents recording land donations granted by authorities to churches and monasteries.</p>
+         <listRelation>
+            <relation name="skos:broadMatch" active="NAR0001gwelt" passive="bm:LandGrant"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
