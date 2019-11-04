@@ -8,9 +8,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                
                 <title xml:lang="en">On the pelican</title>
-               
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
