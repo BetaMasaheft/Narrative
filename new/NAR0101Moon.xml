@@ -49,7 +49,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
         <body>
-            <div type="bibliography"/><!---->
+            <p>Texts, sometimes accompanied with tables, describing the increasing and decreasing moon phases.</p>
+            <div type="bibliography">
+                <listBibl type="secondary">
+                    <bibl><ptr target="bm:Neugebauer1979Astronomy"/><citedRange>194-197</citedRange></bibl>
+                    <bibl><ptr target="bm:Uhlig2003EAEChronography"/><citedRange>736</citedRange></bibl>
+                </listBibl>
+            </div>
         </body>
     </text>
 </TEI>
