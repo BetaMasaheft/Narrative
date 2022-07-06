@@ -17,32 +17,36 @@ jobs:
           fetch-depth: 1  
       - name: Install Test Dependencies
         run: sudo apt-get install libxml2-utils
-      - name: check local Files
-        run: |
-          cd schema
-          ls   
+      # - name: check local Files
+      #   run: |
+      #     cd schema
+      #     ls   
       - name: Validate XML Files
-        run: xmllint --noout --xinclude --relaxng schema/tei-betamesaheft.rng 0001-1000/*.xml 
+        run: |
+          xmllint --noout --xinclude --relaxng schema/tei-betamesaheft.rng 0001-1000/*.xml
+          xmllint --noout --xinclude --relaxng schema/tei-betamesaheft.rng new/*.xml
        
-  # release:
-  #   runs-on: ubuntu-latest
-  #   needs: test
-  #   if: github.ref == 'refs/heads/master'
-  #   steps:
-  #     - name: Checkout
-  #       uses: actions/checkout@v2
-  #       with:
-  #         fetch-depth: 1
-  #     # TODO(DP): not clear yet what these will be
-  #     - name: Install Release Dependencies
-  #       run:  sudo apt-get install ant
-  #     # TBD 
-  #     - name: Expand xml data
-  #       run: ant expand
-  #     - name: Check Git Status 
-  #       run: git status
-  #     # TODO(DP): baptise commiter bot
-  #     - name: Commit and Push
-  #       uses: actions-x/commit@v2
-  #       with:
-  #         message: "[skip ci] BetaMasaBot"
+  release:
+    runs-on: ubuntu-latest
+    # needs: test
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      # TODO(DP): not clear yet what these will be
+      - name: Install Release Dependencies
+        run:  sudo apt-get install ant
+      - name: Build Xar package
+        run:  ant  
+      # TBD 
+      # - name: Expand xml data
+      #   run: ant expand
+      # - name: Check Git Status 
+      #   run: git status
+      # TODO(DP): baptise commiter bot
+      # - name: Commit and Push
+      #   uses: actions-x/commit@v2
+      #   with:
+      #     message: "[skip ci] BetaMasaBot"
