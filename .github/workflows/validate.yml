@@ -20,7 +20,9 @@ jobs:
       # - name: check local Files
       #   run: |
       #     cd schema
-      #     ls   
+      #     ls
+      # - name: Build Xar Package
+      #   run:  ant    
       - name: Validate XML Files
         run: |
           xmllint --noout --xinclude --relaxng schema/tei-betamesaheft.rng 0001-1000/*.xml
@@ -36,10 +38,12 @@ jobs:
         with:
           fetch-depth: 1
       # TODO(DP): not clear yet what these will be
-      - name: Install Release Dependencies
-        run:  sudo apt-get install ant
-      - name: Build Xar package
-        run:  ant  
+      - name: Build Expath Package
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: 8
+      - run: ant  
       # TBD 
       # - name: Expand xml data
       #   run: ant expand

@@ -6,5 +6,6 @@
     <license>GNU-LGPL</license>
     <copyright>true</copyright>
     <type>application</type>
-    <target>BetMasData</target>
+    <target>BetMasData/narratives</target>
+    <prepare>pre-install.xq</prepare>
 </meta>
