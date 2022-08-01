@@ -38,7 +38,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <p>The testament of a saint</p>
-            <listRelation/>
+             
         </body>
     </text>
 </TEI>

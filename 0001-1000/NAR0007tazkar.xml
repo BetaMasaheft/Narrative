@@ -20,8 +20,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
-            <sourceDesc>
-            </sourceDesc>
+            <sourceDesc><p>Beta maṣāḥǝft</p></sourceDesc>
         </fileDesc>
       <encodingDesc>
          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
@@ -37,7 +36,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <p>Major commemorative feast for a dead person</p>
-            <listRelation/>
+             
         </body>
     </text>
 </TEI>

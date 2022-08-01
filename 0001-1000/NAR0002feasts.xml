@@ -41,7 +41,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <p>To be used for texts indicating how to determine Easter, the epact and other moveable feasts.</p>
-            <listRelation/>
+             
         </body>
     </text>
 </TEI>
