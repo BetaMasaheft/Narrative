@@ -33,7 +33,8 @@ jobs:
             find . -type f -name '*.xml' \
             -not -name 'build.xml' \
             -not -name 'repo.xml' \
-            -not -name 'expath-pkg.xml' \
+            -not -name 'expath-pkg.xml' | \
+            xargs \
           )"
       - name: Validate all source files
         run: |
