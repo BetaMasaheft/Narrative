@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="bibliography">
                 <listRelation>
-                    <relation name="ecrm:CLP46i_may_form_part_of" active="NAR0205StanzaCaliph" passive=" LIT5059TaammeraFeqreki"/>
+                    <relation name="ecrm:CLP46i_may_form_part_of" active="NAR0205StanzaCaliph" passive="LIT5059TaammeraFeqreki"/>
                 </listRelation>
             </div><!---->
         </body>
