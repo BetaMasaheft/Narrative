@@ -1,0 +1,70 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NAR0211MichaelJeremiah" xml:lang="en" type="nar">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>St Michael's appearance to Jeremiah</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p>Commemorative notice about <persName ref="PRS7049Michael"></persName> freeing <persName ref="PRS5680Jeremiah">Prophet Jeremiah</persName>, appearing in the Synaxary (<ref type="work" corresp="LIT4032SenkessarS#Miya12">for 12 Miyazya</ref>) and in the <ref type="work" corresp="LIT1295Dersan"></ref> for Miyazya</p>
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term key="ChristianLiterature"/>
+                    <term key="Hagiography"/>
+                    <term key="Miracle"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2024-12-16">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography">
+                <listRelation>
+                    
+                    <relation name="ecrm:P129_is_about" active="NAR0211MichaelJeremiah" passive="PRS5680Jeremiah"></relation>
+                    <relation name="ecrm:P129_is_about" active="NAR0211MichaelJeremiah" passive="PRS7049Michael"></relation>
+                </listRelation>
+            </div>
+            <div type="translation"><note>After Synaxarion for 12 Miyazya</note>
+                <ab>And on this day God sent Michael the archangel to Jeremiah the prophet, and delivered
+                    him from the narrow prison wherein Zedekiah the king had imprisoned him, and Abimelek
+                    the Ethiopian, the captain of the royal guard brought him out. And Straightway Jeremiah
+                    blessed him, and he (the angel) told him that he should neither see the desolation of
+                    Jerusalem, nor taste the bitterness of captivity and calamity; and this actually came to pass
+                    for him. And he fell asleep for seven and sixty years, and with Michael were wine, and
+                    figs, and he gave [them] to Jeremiah the prophet. </ab></div>
+        </body>
+    </text>
+</TEI>

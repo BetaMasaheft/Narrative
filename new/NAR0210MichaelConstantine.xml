@@ -1,0 +1,70 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NAR0210MichaelConstantine" xml:lang="en" type="nar">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>St Michael's appearance to Constantine</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p>Commemorative notice about <persName ref="PRS7049Michael"></persName> and his appearance to King Constantine, appearing in the Synaxary (<ref type="work" corresp="LIT4032SenkessarS#Naha12Mikael">for 12 Nahase</ref>) and in the <ref type="work" corresp="LIT1295Dersan"></ref> for Nahase</p>
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term key="ChristianLiterature"/>
+                    <term key="Hagiography"/>
+                    <term key="Miracle"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2024-12-16">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography">
+                <listRelation>
+                    
+                    <relation name="ecrm:P129_is_about" active="NAR0210MichaelConstantine" passive="PRS3175Constant"></relation>
+                    <relation name="ecrm:P129_is_about" active="NAR0210MichaelConstantine" passive="PRS7049Michael"></relation>
+                </listRelation>
+            </div>
+            <div type="translation"><note>After Synaxarion for 12 Nahase</note>
+                <ab>On this day is celebrated the festival of the glorious Archangel Michael, for on this day he
+                    appeared unto the righteous Constantine above the city of Rome, and gave him power over
+                    all his enemies, and the emperor conquered them, and his kingdom became strong. And he
+                    destroyed the houses of idols, and built churches, and decorated them with every kind of
+                    decoration. For this reason our Fathers, the doctors of the Church, have commanded us to
+                    celebrate the festival of the glorious angel, Michael the archangel, on the twenty-second (?)
+                    day of this month</ab></div>
+        </body>
+    </text>
+</TEI>

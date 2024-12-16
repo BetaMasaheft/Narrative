@@ -1,0 +1,63 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NAR0208MichaelSennacherib" xml:lang="en" type="nar">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>St Michael's intervention against King Sennacherib</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p>Commemorative notice about <persName ref="PRS7049Michael"></persName> intervening in the battle against <persName ref="PRS8762Sennache"></persName>, appearing in the Synaxary (<ref type="work" corresp="LIT4035SenkessarDL#Mask6Isaiah">Commemoration of  Isaiah on 6 Maskaram</ref>) and in the <ref type="work" corresp="LIT1295Dersan"></ref> for Hamle. The story of Hezekiah and Sennacherib is commemorated in the Synaxary also on <ref type="work" corresp="LIT4032SenkessarS#Naha4Hezqeyas">4 Nahase</ref></p>
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term key="ChristianLiterature"/>
+                    <term key="Hagiography"/>
+                    <term key="Miracle"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2024-12-16">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography">
+                <listRelation>
+                    <relation name="ecrm:P129_is_about" active="NAR0208MichaelSennacherib" passive="PRS8762Sennache"></relation>
+                    <relation name="ecrm:P129_is_about" active="NAR0208MichaelSennacherib" passive="PRS5584Isaiah"></relation>
+                    <relation name="ecrm:P129_is_about" active="NAR0208MichaelSennacherib" passive="PRS5330Hezekiah"></relation>
+                    <relation name="ecrm:P129_is_about" active="NAR0208MichaelSennacherib" passive="PRS7049Michael"></relation>
+                </listRelation>
+            </div><!---->
+        </body>
+    </text>
+</TEI>
