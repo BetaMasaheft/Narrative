@@ -39,8 +39,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
-            <p>To be used for calendrical lists of saint commemorations, arranged according to the feast day of the saints.</p>
-             
-        </body>
+            <p>To be used for undefined calendrical lists of saint commemorations, arranged according to the feast day of the saints,
+                that lack their own work record.
+                For identifiable calendars, see <ref type="work" corresp="LIT3123Calend"/> and
+                <ref type="work" corresp="LIT6011FeastsList"/>.
+            </p>
+             </body>
     </text>
 </TEI>
