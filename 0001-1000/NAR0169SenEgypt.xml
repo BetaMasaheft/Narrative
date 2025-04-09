@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sǝnkǝssār commemoration of the arrival of the holy family in Egypt</title>
+                <title>Sǝnkǝsār commemoration of the arrival of the holy family in Egypt</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
